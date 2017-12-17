@@ -12,7 +12,12 @@ unless going from one lane to another.
 The path-planner was be able to make one complete loop around the 6946m highway successfully. 
 The car did not experience total acceleration over 10 m/s^2 and jerk that is greater than 50 m/s^3 at any given time.
 
+[pathplanner]: ./PathPlanner.gif
 
+The following GIF gives an example of the implemented Path Planner executing lane change maneuvers.
+
+![alt text][pathplanner]
+ 
 ### Trajectory Generator
 The trajectory generator uses a Cubic Spline interpolation library that is implemented as a
 single C++ header file "spline.h" which can be found at this [link](http://kluge.in-chemnitz.de/opensource/spline/). Initially we get the previous and the current position 
